@@ -2,6 +2,8 @@
     If you don't need this feature, please remove coresponding lines.
 2. Build image
     ``docker build -t (tag name you want) .``
+    
+    I will use ``neovim`` as an example tag for the next step.
 3. Create a docker machine with this image
     ``docker run -ti -v /some/dir/you/want/to/work/on:/work_space neovim``
 
