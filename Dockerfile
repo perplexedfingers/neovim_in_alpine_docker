@@ -25,4 +25,3 @@ RUN mkdir -p /root/.config \
     && ln -s /root/.config/nvim /root/.vim && ln -s /root/.config/nvim/init.vim /root/.vimrc \
     && cd /root/.config/nvim && make test && make
 CMD ["nvim"]
-# docker run (--rm) -ti -v /local/file/or/dir/location:/root/somewhere/you/want $(docker image index)
