@@ -8,10 +8,10 @@
 
         docker run -ti -v /some/dir/you/want/to/work/on:/work_space neovim
 
-or, if you are using M$
+    or, if you are using M$
 
         docker run -ti -v C:/Users/you/dir/you/want/to/work/on:/work_space neovim
 
-And your directory will be mounted to ``/work_space``.
+    And your directory will be mounted to ``/work_space``.
 
-Add ``--rm`` if you don't want to keep your settings in the docker machine.
+    Add ``--rm`` if you don't want to keep your settings in the docker machine.
